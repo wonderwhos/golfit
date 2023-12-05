@@ -1,0 +1,26 @@
+.mainimage {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    transition: transform 0.3s ease;
+}
+
+.mainimage:hover {
+    transform: translateY(-20px)
+}
+
+.animation {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpage {
+    background-color: green;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
